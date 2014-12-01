@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.dailyselfie.MainActivity" >
+
+    <item
+        android:id="@+id/action_picture"
+        android:orderInCategory="300"
+        android:showAsAction="always"
+        android:title="@string/action_picture" 
+        android:icon="@android:drawable/ic_menu_camera"
+        />
+    <item
+        android:id="@+id/action_clear"
+        android:orderInCategory="200"
+        android:showAsAction="always"
+        android:title="@string/action_clear" 
+        android:icon="@android:drawable/ic_delete"
+        />
+    <item 
+        android:id="@+id/action_alarm" 
+        android:showAsAction="always"
+        android:title="@string/action_enable_alarm"
+        android:icon="@android:drawable/ic_media_play"
+        android:orderInCategory="100"
+        />
+    
+    
+</menu>

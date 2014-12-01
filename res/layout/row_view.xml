@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	>
+        <ImageView 
+            android:id="@+id/selfie_bitmap"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:contentDescription="@string/selfie" >
+		</ImageView>
+
+        <TextView
+            android:id="@+id/selfie_name"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/selfie_key"
+            android:textSize="20sp" />
+
+</LinearLayout>

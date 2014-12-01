@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Daily Selfie</string>
+
+    <string name="action_picture">Take Picture</string>
+    <string name="action_clear">Clear All</string>
+    <string name ="action_disable_alarm">Disable Alarm</string>
+    <string name ="action_enable_alarm">Enable Alarm</string>
+    
+    <string name="selfie_key">selfiePath</string>
+    <string name="alarm_key">alarms</string>    
+    
+    <string name="selfie">Selfie</string>
+    <string name="enlarged_selfie">Enlarged Selfie</string>
+    
+    
+    
+</resources>
